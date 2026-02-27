@@ -7,3 +7,4 @@ in [Firedrake](https://www.firedrakeproject.org/).
 | -------- | ----------- |
 | [Step 1](https://dealii.org/current/doxygen/deal.II/step_1.html) | Basic meshing |
 | [Step 2](https://dealii.org/current/doxygen/deal.II/step_2.html) | Degrees of Freedom and Sparsity Patterns |
+| [Step 3](https://dealii.org/current/doxygen/deal.II/step_3.html) | Laplace's equation |

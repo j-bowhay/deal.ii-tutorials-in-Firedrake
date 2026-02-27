@@ -1,0 +1,30 @@
+\documentclass{../notes}
+
+
+\title{Step 3}
+
+\begin{document}
+\maketitle
+
+In this tutorial we will solve the following problem
+\begin{align}
+    -\nabla^2 u &= 1 \quad \tin \quad \Omega,\\
+    u &= 0 \quad \ton \quad \partial\Omega,
+\end{align}
+where $\Omega=[-1, 1]^2$. We multiply the equation by the test function $v$
+which gives
+\begin{equation}
+    -\int_\Omega v \nabla^2u \dd{x} = \int_\Omega v\dd{x}.
+\end{equation}
+Integrating by parts, we then find
+\begin{equation}
+    \int_\Omega \nabla v \cdot \nabla u \dd{x}
+    -\int_{\partial\Omega}v\mathbf{n}\cdot\nabla u = \int_\Omega v\dd{x}.
+\end{equation}
+Finally, by noting the boundary conditions, we end up with
+\begin{equation}
+    \int_\Omega \nabla v \cdot \nabla u \dd{x}
+    = \int_\Omega v\dd{x}.
+\end{equation}
+
+\end{document}
